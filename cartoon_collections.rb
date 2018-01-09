@@ -25,7 +25,7 @@ def find_the_cheese(array)
   end
   }
 end
-puts find_the_cheese(soup)
+find_the_cheese(soup)
 
 
 
