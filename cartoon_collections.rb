@@ -17,9 +17,10 @@ def long_planeteer_calls(array)
 end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.map { |x| 
-  if array.any? {|y| y == x }  
-    x
+  new_array = []
+  array.each { |x| 
+  if cheese_types.any? {|y| y == x }  
+    new_array << x 
   end
   }
 end
