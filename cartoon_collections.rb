@@ -25,7 +25,7 @@ def find_the_cheese(array)
     new_array << x 
   end
   }
-  new_array.first
+  return new_array.first
 end
 
 
