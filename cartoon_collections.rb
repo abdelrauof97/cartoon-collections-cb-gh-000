@@ -19,7 +19,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.map { |x| 
   if x == cheese_types.any?
-    return x
+    puts x
   end
   }
 end
