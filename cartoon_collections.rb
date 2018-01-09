@@ -1,7 +1,7 @@
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 short_words = ["puff", "go", "two"]
-
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 def roll_call_dwarves(array)
   array.each_with_index { |x,i| puts "#{i+1}. #{x}" }
 end
@@ -21,7 +21,7 @@ def find_the_cheese(array)
   x == cheese_types.any?
   }
 end
-puts find_the_cheese()
+puts find_the_cheese(soup)
 
 
 
