@@ -20,6 +20,7 @@ def find_the_cheese(array)
   x == cheese_types.any?
   }
 end
+puts find_the_cheese()
 
 
 
