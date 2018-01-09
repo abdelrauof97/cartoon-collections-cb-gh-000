@@ -19,7 +19,6 @@ def find_the_cheese(array)
   array.map { |x| 
   if x == cheese_types.any?
   } 
-  return array.first
 end
 
 
