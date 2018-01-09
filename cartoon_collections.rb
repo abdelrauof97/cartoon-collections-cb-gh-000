@@ -21,7 +21,7 @@ def find_the_cheese(array)
   if cheese_types.any? {|y| y == x }  
     x
   else 
-    nil
+    return nil
   end
   }
 end
