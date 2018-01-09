@@ -20,6 +20,8 @@ def find_the_cheese(array)
   array.map { |x| 
   if cheese_types.any? {|y| y == x }  
     x
+  else 
+    nil
   end
   }
 end
