@@ -20,9 +20,10 @@ def find_the_cheese(array)
   new_array = []
   if array.any? == "cheddar"
     puts "hi"
+  end
 end
 
-
+puts find_the_cheese(soup)
 
 
 
