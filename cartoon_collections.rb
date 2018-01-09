@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   array.each_with_index { |x,i| puts "#{i+1}. #{x}" }
 end
 roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)
   # Your code here
 end
 
