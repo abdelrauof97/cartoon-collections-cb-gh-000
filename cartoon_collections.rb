@@ -22,7 +22,6 @@ def find_the_cheese(array)
   if cheese_types.any? {|y| y == x }  
     new_array << x
   end
-  new_array
   }
 end
 
