@@ -1,4 +1,4 @@
-def roll_call_dwarves(array)
+def roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
   each_with_index { |x,i| "#{i}. #{x}" }
 end
 
