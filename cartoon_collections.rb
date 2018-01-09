@@ -20,7 +20,7 @@ def find_the_cheese(array)
   new_array = []
   array.map { |x| 
   if cheese_types.any? {|y| y == x }  
-    new_array << x
+    x
   end
   }
 end
