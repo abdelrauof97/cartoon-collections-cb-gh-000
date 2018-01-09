@@ -21,7 +21,7 @@ def find_the_cheese(array)
   if x == cheese_types.any?
     true
   else 
-    false
+    return nil
   end
   }
 end
