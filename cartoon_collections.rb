@@ -21,7 +21,7 @@ def find_the_cheese(array)
   array.each { |x| 
   if !(array.include?("chedder") || array.include?("gouda") || array.include?("camembert"))
     nil
-  if cheese_types.any? {|y| y == x }  
+  elsif cheese_types.any? {|y| y == x }  
     new_array << x 
   end
   }
