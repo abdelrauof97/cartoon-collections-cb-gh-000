@@ -28,7 +28,6 @@ def find_the_cheese(array)
   new_array.first
 end
 
-puts find_the_cheese(soup)
 
 
 
