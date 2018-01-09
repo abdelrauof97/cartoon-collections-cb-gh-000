@@ -19,7 +19,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.map do |x| 
   if x == cheese_types.any?
-end
+  end
+  end
 end
 puts find_the_cheese(soup)
 
