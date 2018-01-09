@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   array.map { |x| "#{x.capitalize}!" }
 end
 def long_planeteer_calls(array)
-  array.length > 3 ? return ture : return false
+  array.length > 3 ? return true : return false
 end
 long_planeteer_calls(short_words)
 def find_the_cheese# code an argument here
